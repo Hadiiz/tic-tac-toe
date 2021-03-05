@@ -3,6 +3,9 @@
 :root {
   --bg: #fbe7c6;
   --glaze: #ffaebc;
+  --x: #a0e7e5;
+  --o: #b4f8c8;
+  --game: #fef7ec;
 }
 
 body {
@@ -24,9 +27,17 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   border: 1px solid var(--glaze);
+  background-color: var(--game);
+  border-radius: 5px;
 }
 
 .cell {
   border: 1px solid var(--glaze);
   font-size: 5.5rem;
+}
+.x {
+  color: var(--x);
+}
+.o {
+  color: var(--o);
 }
